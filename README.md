@@ -26,4 +26,8 @@ vim-commander [command] [arg]*
     - list                : lists installed vimrc's
     - remove name         : removes installed vimrc
     - use name            : switches vimrc's
+    - master [vimrc]      : makes a vimrc master (defaults ~/.vimrc)
+    - diff [name] [file]  : stores a vimrc patch
+    - patch [name]        : patches vim-master
+    - wipe                : clears configs
 ```
